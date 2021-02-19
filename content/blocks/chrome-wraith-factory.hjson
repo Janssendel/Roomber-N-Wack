@@ -1,5 +1,5 @@
 type: UnitFactory
-name: chrome-wraith-factory
+name: Constructor
 description: Produces any one of four selected basic units. Requires a large amount of water for coolant.
 health: 455750
 size: 4
@@ -13,19 +13,19 @@ consumes: {
 plans: [
   {
     unit: chrome-wraith
-    time: 1
+    time: 2160
     requirements: [
       silicon/250
       metaglass/300
     ]
-	}
-  ]
-  requirements: [
+  }
+requirements: [
   lead/550
   silicon/350
   titanium/250
   thorium/150
   surge-alloy/150
 ]
-BuildVisiblity:shown
+research: tetrative-reconstructor
+buildVisibility: shown
 category: units
