@@ -1,11 +1,11 @@
-name: Chrome Wraith Factory
-description: Makes Chrome Wraith units.
+name: Oracle Beacon
+description: Summons Oracles 
 type: UnitFactory
-unitType: chrome-wraith
+unitType: Oracle
 size: 2
-produceTime: 350
+produceTime: 1
 consumes: {
-  power: 0.5
+  power: 100
   items: {
     items: [
       silicon/10
@@ -16,8 +16,6 @@ consumes: {
 category: units
 research: wraith-factory
 requirements: [
-  silver/70
-  electrum/40
   silicon/40
   titanium/20
 ]
