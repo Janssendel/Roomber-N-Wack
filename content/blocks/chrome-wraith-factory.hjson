@@ -9,7 +9,6 @@ consumes: {
   items: {
     items: [
       silicon/10
-      silver/5
     ]
   }
 }
