@@ -22,5 +22,5 @@ plans: [
     ]
 	}
   ]
-BuildVisiblity:SandboxOnly
+BuildVisiblity:shown
 category: units
