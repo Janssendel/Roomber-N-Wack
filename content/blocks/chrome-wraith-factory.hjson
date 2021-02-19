@@ -1,15 +1,13 @@
-name: Oracle Beacon
-description: Summons Oracles 
 type: UnitFactory
-unitType: Oracle
-size: 2
-produceTime: 1
+name: Constructor
+description: Produces any one of four selected basic units. Requires a large amount of water for coolant.
+health: 455750
+size: 4
 consumes: {
-  power: 100
-  items: {
-    items: [
-      silicon/10
-    ]
+  power: 3.5
+  liquid: {
+    liquid: water
+    amount: 0.5
   }
 }
 plans: [
