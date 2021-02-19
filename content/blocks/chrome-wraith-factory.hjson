@@ -1,5 +1,3 @@
-BuildVisiblity:sandboxOnly
-category: units
 type: UnitFactory
 name: Constructor
 description: Produces any one of four selected basic units. Requires a large amount of water for coolant.
