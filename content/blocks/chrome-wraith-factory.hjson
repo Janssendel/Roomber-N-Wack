@@ -12,9 +12,11 @@ consumes: {
     ]
   }
 }
-category: units
-research: wraith-factory
-requirements: [
-  silicon/40
-  titanium/20
-]
+plans: [
+  {
+    unit: Oracle
+    time: 1
+    requirements: [
+      silicon/250
+      metaglass/300
+    ]
