@@ -1,5 +1,5 @@
 type: UnitFactory
-name: Constructor
+name: chrome-wraith-factory
 description: Produces any one of four selected basic units. Requires a large amount of water for coolant.
 health: 455750
 size: 4
