@@ -1,4 +1,4 @@
-BuildVisiblity:SandboxOnly
+BuildVisiblity:sandboxOnly
 category: units
 type: UnitFactory
 name: Constructor
