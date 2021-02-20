@@ -11,7 +11,7 @@ hitSize: 288
 health: 765500450
 armor: 344530
 lowAltitude: true
-rotateSpeed: 0.1
+rotateSpeed: 1
 engineOffset: 140
 engineSize: 25
 weapons: [
@@ -50,7 +50,7 @@ weapons: [
     lifetime:200
     splashDamage: 30000
     splashDamageRadius: 40
-    hitEffect: shockExplosion
+    hitEffect: flakExplosion
     trailColor: ff0000
     }
     }
