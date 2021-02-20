@@ -21,7 +21,6 @@ weapons: [
     y: 0
     rotate: true
     reload:  1
-    inaccuracy: 15
     shootSound: shootBig
     bullet: {
     sprite: orb-yellow
@@ -36,4 +35,25 @@ weapons: [
     homingRange : 100
     }
     }
+   {
+   name: torpedo-launcher
+    x: 60
+    y: 70
+    rotate: true
+    mirror: true
+    reload: 2
+    shootSound: missile
+    bullet: {
+    type: MissileBulletType
+    sprite: flax-torpedo
+    damage: 300000
+    speed: 3
+    lifetime:200
+    splashDmage: 30000
+    splashDamageRadius: 40
+    hitEffect: shockExplosion
+    trailColorff0000
+    }
+    }
 ]
+    
