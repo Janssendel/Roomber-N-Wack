@@ -56,7 +56,7 @@ weapons: [
     }
  {
    name: torpedo-launcher
-    x: 60
+    x: -60
     y: 70
     rotate: true
     mirror: true
