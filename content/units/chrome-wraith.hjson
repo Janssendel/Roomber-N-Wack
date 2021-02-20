@@ -51,7 +51,7 @@ weapons: [
     splashDamage: 30000
     splashDamageRadius: 40
     hitEffect: shockExplosion
-    trailColorff0000
+    trailColor: ff0000
     }
     }
 ]   
