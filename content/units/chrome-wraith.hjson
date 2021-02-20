@@ -74,3 +74,12 @@ weapons: [
     }
     }
     ]
+abilities: [
+{
+type: "mindustry.entities.abilities.SpawnUnitAbility"
+unitType: zenith
+spawnTime: 1
+spawnX: 0
+spawnY: -20
+}
+]
