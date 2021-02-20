@@ -11,7 +11,7 @@ hitSize: 288
 health: 765500450
 armor: 344530
 lowAltitude: true
-rotateSpeed: 1
+rotateSpeed: 0.5
 engineOffset: 140
 engineSize: 25
 weapons: [
