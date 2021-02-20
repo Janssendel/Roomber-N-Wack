@@ -54,4 +54,23 @@ weapons: [
     trailColor: ff0000
     }
     }
-]   
+ {
+   name: torpedo-launcher
+    x: 60
+    y: 70
+    rotate: true
+    mirror: true
+    reload: 2
+    shootSound: missile
+    bullet: {
+    type: MissileBulletType
+    damage: 300000
+    speed: 3
+    lifetime:200
+    splashDamage: 30000
+    splashDamageRadius: 40
+    hitEffect: flakExplosion
+    trailColor: ff0000
+    }
+    }
+    ]
