@@ -44,7 +44,6 @@ weapons: [
     shootSound: missile
     bullet: {
     type: MissileBulletType
-    sprite: flax-torpedo
     damage: 300000
     speed: 3
     lifetime:200
@@ -54,5 +53,4 @@ weapons: [
     trailColorff0000
     }
     }
-]
-    
+]   
