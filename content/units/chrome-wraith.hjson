@@ -14,3 +14,25 @@ lowAltitude: true
 rotateSpeed: 0.1
 engineOffset: 180
 engineSize: 25
+weapons: [
+  {
+    name: orb-launcher
+    x: 0
+    y: 0
+    rotate: true
+    reload:  1
+    inaccuracy: 15
+    shootSound: shootBig
+    bullet: {
+    sprite: orb-yellow
+    damage: 90000
+    speed: 10
+    lifetime: 100
+    pierce:true 
+    pierceBuilding: true
+    height: 20
+    width: 0
+    homingPower: 10.0
+    homingRange : 100
+    }
+    
