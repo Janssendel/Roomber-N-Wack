@@ -1,7 +1,7 @@
 type: flying
 localizedName: Legion
 description: A remote base , if you say so . A Roomber ship able to defeat even the most grand of ships , able to leave a trail of destruction as it advances to spearhead the attack against the wretched foes of Roombanion 
-details: "A Roombanion ship meant for destroying Exotic Mod units and a counter to their flagship , the Hellfire , the Legion accels as a specialist ship that can tank and destroy threats of magnitudes higher.
+details: "A Roombanion ship meant for destroying Exotic Mod units and a counter to their flagship , the Hellfire , the Legion accels as a specialist ship that can tank and destroy threats of magnitudes higher."
 accel: 0.5
 flying: true
 range: 200
