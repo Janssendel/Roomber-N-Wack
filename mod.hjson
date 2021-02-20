@@ -1,6 +1,6 @@
-name: "example-mod"
-displayName: "[orange]Example[gold] Mod" //what displays in the mod selection menu
+name: "Roomber-N-Wack"
+displayName: "[ff000]Roomber-N [scarlet]-Wack" //what displays in the mod selection menu
 author: "Anuke"
-description: "A simple mod. Demonstrates how to make[accent] new ores[] and[orange] machines.[]"
-version: "0"
+description: "A simple mod. Demonstrates how to make[accent] wack [] and[orange] stuff.[]"
+version: "0.2.1"
 minGameVersion: "125"
