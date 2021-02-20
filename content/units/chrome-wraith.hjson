@@ -35,4 +35,5 @@ weapons: [
     homingPower: 10.0
     homingRange : 100
     }
+    }
 ]
