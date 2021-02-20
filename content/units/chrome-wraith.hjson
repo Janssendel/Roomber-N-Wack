@@ -1,6 +1,6 @@
 type: flying
-localizedName: Oracle
-description: A massive starship, capable of easily destroying the most powerful units and laying waste to any base in its path. Avoid encounters if possible.
+localizedName: Legion
+description: A remote base , if you say so . A Roomber ship able to defeat even the most grand of ships , able to leave a trail of destruction as it advances to spearhead the attack against the wretched foes of Roombanion 
 details: "One of the last intact remnants of a long lost civilization. Powerful, relentless, nearly indestructible. But not invincible. \n\nDo you have the strength to take it down?"
 speed: 1
 accel: 0.5
@@ -49,7 +49,7 @@ weapons: [
     damage: 300000
     speed: 3
     lifetime:200
-    splashDmage: 30000
+    splashDamage: 30000
     splashDamageRadius: 40
     hitEffect: shockExplosion
     trailColorff0000
