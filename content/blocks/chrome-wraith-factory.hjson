@@ -19,6 +19,15 @@ plans: [
       metaglass/300
     ]
   }
+  {
+  unit: Annihilator
+  time: 1
+  requirements: [
+  silicon/1
+  lead/30
+  plastanium:100
+  ]
+  }
   ]
 requirements: [
   lead/550
