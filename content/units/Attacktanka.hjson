@@ -6,9 +6,6 @@ hitSize: 10
 canDrown: false
 armor: 75
 speed: 2
-trailX:0
-trailY
-trailScl: 1
 rotateSpeed: 2.4
 commandLimit: 6
 singleTarget: true
