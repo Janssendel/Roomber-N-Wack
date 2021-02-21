@@ -76,10 +76,9 @@ weapons: [
     ]
 abilities: [
 {
-type: "mindustry.entities.abilities.SpawnUnitAbility"
-unitType: zenith
-spawnTime: 1
-spawnX: 0
-spawnY: -20
+type: "mindustry.entities.abilities.RepairFieldAbility"
+amount: 9000
+reload: 200
+radius: 100
 }
 ]
