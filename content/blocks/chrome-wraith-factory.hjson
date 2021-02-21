@@ -25,7 +25,7 @@ plans: [
   requirements: [
   silicon/1
   lead/30
-  plastanium:100
+  plastanium/100
   ]
   }
   ]
