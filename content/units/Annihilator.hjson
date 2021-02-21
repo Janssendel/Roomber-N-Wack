@@ -6,12 +6,12 @@ speed: 0.4
 accel: 0.5
 flying: true
 range: 200
-circleTarget: true
-hitSize: 288
+circleTarget: false
+hitSize: 220
 health: 765500450
 armor: 344530
 lowAltitude: true
-rotateSpeed: 0.1
+rotateSpeed: 0.2
 engineOffset: 180
 engineSize: 25
 weapons: [
