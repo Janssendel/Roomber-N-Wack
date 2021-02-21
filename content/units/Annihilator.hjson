@@ -31,4 +31,5 @@ weapons: [
       damage: 500
       collidesAir: true
 }
+}
 ]
