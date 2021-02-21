@@ -1,7 +1,7 @@
 type: flying
-localizedName: Oracle
-description: A massive starship, capable of easily destroying the most powerful units and laying waste to any base in its path. Avoid encounters if possible.
-details: "One of the last intact remnants of a long lost civilization. Powerful, relentless, nearly indestructible. But not invincible. \n\nDo you have the strength to take it down?"
+localizedName: Annihilator
+description: A flying piece of total eye destruction , the Annihilator's got it all . Asymetrical and not even good enough for a spot on #spriting
+details: "Total eyepain . #spritiing's worst fears . It contains it all . A cursed unit beyond the horrors of time . the worst of the worst..."
 speed: 0.4
 accel: 0.5
 flying: true
@@ -14,3 +14,21 @@ lowAltitude: true
 rotateSpeed: 0.1
 engineOffset: 180
 engineSize: 25
+weapons: [
+{
+  name: shadow-laser
+    shootCone: 60
+    recoil: 3
+    alternate: false
+    reload: 8
+    x: 0
+    y: 2
+    mirror: false
+    shootSound: laser
+    bullet: {
+      type: LaserBulletType
+      colors: [00000066, 000000, 7f7f7f]
+      damage: 500
+      collidesAir: true
+}
+]
