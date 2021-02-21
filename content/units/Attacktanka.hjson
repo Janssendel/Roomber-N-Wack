@@ -1,16 +1,31 @@
-type: flying
-localizedName: Oracle
-description: A massive starship, capable of easily destroying the most powerful units and laying waste to any base in its path. Avoid encounters if possible.
-details: "One of the last intact remnants of a long lost civilization. Powerful, relentless, nearly indestructible. But not invincible. \n\nDo you have the strength to take it down?"
-speed: 0.4
-accel: 0.5
-flying: true
-range: 200
-circleTarget: true
-hitSize: 288
-health: 765500450
-armor: 344530
-lowAltitude: true
-rotateSpeed: 0.1
-engineOffset: 180
-engineSize: 25
+type: mech
+name: Attacktanka
+description: Tracked unit that is extraordinarily fast , able to perform highspeed raids
+health: 900
+hitSize: 10
+canDrown: false
+armor: 75
+speed: 2
+trailX:0
+trailY
+trailScl: 1
+rotateSpeed: 2.4
+commandLimit: 6
+singleTarget: true
+weapons: [
+{
+name: orb-lanucher
+x: 0
+y: 0
+rotate: true
+reload: 3
+shootSound: shootBig
+bullet: {
+type: BasicBulletType
+damage: 700
+speed: 10
+lifetime: 100
+trailColor: ff0000
+}
+}
+]
