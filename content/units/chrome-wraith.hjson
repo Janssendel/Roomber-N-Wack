@@ -76,9 +76,15 @@ weapons: [
     ]
 abilities: [
 {
-type: "mindustry.entities.abilities.RepairFieldAbility"
-amount: 9000
-reload: 200
+type: "mindustry.entities.abilities.ForceFieldAbility"
+max: 99000
+cooldown: 20
 radius: 100
+regen: 800
 }
-]
+{type: "mindustry.entities.abilities.RepairFieldAbility"
+    range: 160
+    amount: 250
+    reload: 30
+  }
+  ]
