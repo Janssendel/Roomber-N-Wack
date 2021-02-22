@@ -5,7 +5,7 @@ details: "Total eyepain . #spritiing's worst fears . It contains it all . A curs
 speed: 0.4
 accel: 0.5
 flying: true
-range: 200
+range: 140
 circleTarget: false
 hitSize: 220
 health: 765500450
