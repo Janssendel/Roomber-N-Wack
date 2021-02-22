@@ -20,9 +20,9 @@ weapons : [
     shootCone: 60
     alternate: false
     reload: 1
-    x: 0
-    y: 2
-    mirror: false
+    x: 2
+    y: 4
+    mirror: true
     shootSound: laser
     bullet: {
       type: LaserBulletType
