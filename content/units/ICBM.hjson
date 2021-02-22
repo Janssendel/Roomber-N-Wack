@@ -7,7 +7,7 @@ accel: 1
 flying: true
 range: 200
 circleTarget: true
-hitSize: 288
+hitSize: 10
 health: 100
 armor: 40
 lowAltitude: true
