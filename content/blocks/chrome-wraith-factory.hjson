@@ -47,14 +47,22 @@ plans: [
   thorium/100
   ]
   }
+{
+unit: Punisher
+time:1
+requirement: [
+lead/30
+silicon:30
+plastainium
 ]
+}
 requirements: [
   lead/550
   silicon/350
   titanium/250
   thorium/150
   surge-alloy/150
-]
+  ]
 research: tetrative-reconstructor
 buildVisibility: shown
 category: units
