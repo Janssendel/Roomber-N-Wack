@@ -52,7 +52,7 @@ unit: Punisher
 time:1
 requirement: [
 lead/30
-silicon:30
+silicon/30
 plastainium
 ]
 }
