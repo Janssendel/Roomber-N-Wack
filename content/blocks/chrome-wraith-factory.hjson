@@ -37,6 +37,16 @@ plans: [
   plastanium/100
   ]
   }
+  {
+  unit: ICBM
+  time:1
+  requirements: [
+  silicon/10
+  lead/10
+  pyratite/100
+  thorium/100
+  ]
+  }
 ]
 requirements: [
   lead/550
