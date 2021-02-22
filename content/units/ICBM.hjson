@@ -3,7 +3,7 @@ localizedName: ICBM
 description: It's an old model of ICBM Roomber made during 
 details: "One of the last intact remnants of a long lost civilization. Powerful, relentless, nearly indestructible. But not invincible. \n\nDo you have the strength to take it down?"
 speed: 10
-accel: 1
+accel: 10
 flying: true
 range: 200
 circleTarget: true
@@ -11,24 +11,25 @@ hitSize: 10
 health: 100
 armor: 40
 lowAltitude: true
-rotateSpeed: 1
+rotateSpeed: 6
 engineOffset: 10
 engineSize: 25
 weapons : [
 {
-name: NuclearWarhead
-reload: 1
-shootSound: Soundexplosion
-bullet: {
-type: BombBulletType
-hitEffect: pulverize
-lifetime: 100
-speed: 10
-instantDisapeear: true
-splashDamage: 10000
-splashDamageRadius: 30
-killShooter: true
-hittable: false
+ name: laser-repeaters
+    shootCone: 60
+    alternate: false
+    reload: 1
+    x: 0
+    y: 2
+    mirror: false
+    shootSound: laser
+    bullet: {
+      type: LaserBulletType
+      colors: [00000066, 000000, 7f7f7f]
+      damage: 500
+      collidesAir: true
+      length: 400
 }
 }
 ]
