@@ -1,16 +1,32 @@
 type: flying
-localizedName: Oracle
-description: A massive starship, capable of easily destroying the most powerful units and laying waste to any base in its path. Avoid encounters if possible.
+localizedName: ICBM
+description: It's an old model of ICBM Roomber made during 
 details: "One of the last intact remnants of a long lost civilization. Powerful, relentless, nearly indestructible. But not invincible. \n\nDo you have the strength to take it down?"
-speed: 0.4
-accel: 0.5
+speed: 10
+accel: 1
 flying: true
 range: 200
 circleTarget: true
 hitSize: 288
-health: 765500450
-armor: 344530
+health: 100
+armor: 40
 lowAltitude: true
-rotateSpeed: 0.1
-engineOffset: 180
+rotateSpeed: 1
+engineOffset: 10
 engineSize: 25
+weapons : [
+{
+name: NuclearWarhead
+reload: 1
+shootSound: Soundexplosion
+bullet: {
+type: BombBulletType
+hitEffect: pulverize
+lifetime: 100
+speed: 10
+instantDisapeear: true
+splashDamage: 10000
+splashDamageRadius: 30
+killShooter: true
+hittable: false
+
