@@ -29,4 +29,6 @@ splashDamage: 10000
 splashDamageRadius: 30
 killShooter: true
 hittable: false
-
+}
+}
+]
