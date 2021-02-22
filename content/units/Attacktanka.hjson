@@ -11,7 +11,7 @@ commandLimit: 6
 singleTarget: true
 weapons: [
 {
-name: orb-lanucher
+name: tank-artillery
 x: 0
 y: 0
 rotate: true
