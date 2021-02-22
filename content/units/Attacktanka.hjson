@@ -2,7 +2,7 @@ type: mech
 name: Attacktanka
 description: Tracked unit that is extraordinarily fast , able to perform highspeed raids
 health: 900
-hitSize: 10
+hitSize: 100
 canDrown: false
 armor: 75
 speed: 2
