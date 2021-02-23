@@ -27,4 +27,4 @@ requirements: [
 type: PowerTurret
 health: 250
 category: turret
-buildVisibility: true
+buildVisibility: shown
