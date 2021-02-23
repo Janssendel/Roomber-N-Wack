@@ -21,5 +21,5 @@ shootType: {
 rotateSpeed: 100
 powerUse: 1
 heatColor: ff0000
-shootEffect: laserHit
+shootEffect: lightningShoot
 shootSound:lasershoot
