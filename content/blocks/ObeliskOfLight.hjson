@@ -23,3 +23,4 @@ powerUse: 1
 heatColor: ff0000
 shootEffect: lightningShoot
 shootSound:lasershoot
+buildVisibilty: true
