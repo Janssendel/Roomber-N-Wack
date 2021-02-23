@@ -1,6 +1,6 @@
 localizedName: Obelisk
 description: A heavy laser cannon , meant to make things on fire
-type: ItemTurret
+type: PowerTurret
 reloadTime: 480
 recoilAmount: 0
 shootCone: 0
