@@ -47,16 +47,17 @@ plans: [
   thorium/100
   ]
   }
-{
-unit: Punisher
-time:1
-requirement: [
-lead/30
-silicon/30
-plastainium/30
-]
-}
-]
+  {
+  unit: Punisher
+  time:1
+  requirements: [
+  silicon/10
+  lead/10
+  pyratite/100
+  thorium/100
+  ]
+  }
+  ]
 requirements: [
   lead/550
   silicon/350
