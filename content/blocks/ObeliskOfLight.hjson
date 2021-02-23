@@ -1,31 +1,30 @@
-localizedName: Obelisk
-description: A heavy laser cannon , meant to make things on fire
-type: PowerTurret
-reloadTime: 480
-recoilAmount: 0
-shootCone: 0
-range: 400
-cooldown: 0.015
-restitution: 0.015
-size: 3
-shots: 500
-inaccuracy: 0
-spread: 0
+localizedName: Obelisk Of Light
+description: Powerful anti-unit weaponry , good against crowds
+size: 1
+range: 150
+reloadTime: 1
+shootSound: spark
+shootCone: 40
+shots: 50
+shootType: {
+  type: LightningBulletType
+  lightningLength: 50
+  damage: 600
+}
+rotateSpeed: 200
+powerUse: 10000
 targetAir: true
 targetGround: true
-shootType: {
-  type: LaserBulletType
-  laserLength: 100
-  damage: 20
-}
-rotateSpeed: 100
-powerUse: 1
 heatColor: ff0000
 shootEffect: lightningShoot
-shootSound:lasershoot
-buildVisibilty: true
+recoilAmount: 1
+cooldown: 0.02
+restitution: 0.02
 requirements: [
-lead/5000
-surge-alloy/100
+  copper/1500
+  lead/525
 ]
+type: PowerTurret
+health: 250
 category: turret
+buildVisibility
