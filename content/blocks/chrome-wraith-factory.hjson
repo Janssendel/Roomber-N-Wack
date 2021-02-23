@@ -2,7 +2,7 @@ type: UnitFactory
 name: Constructor
 description: Produces any one of four selected basic units. Requires a large amount of water for coolant.
 health: 455750
-size: 14
+size: 16
 consumes: {
   power: 3.5
   liquid: {
