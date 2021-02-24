@@ -1,14 +1,13 @@
 localizedName: Obelisk Of Light
 description: Powerful anti-unit weaponry , good against crowds
 size: 3
-range: 150
-reloadTime: 1
+range: 1000
+reloadTime: 70
 shootSound: spark
-shootCone: 40
-shots: 50
+shots: 1
 shootType: {
   type: LaserBulletType
-  lightningLength: 50
+  lightningLength: 100
   damage: 600
 }
 rotateSpeed: 200
@@ -25,6 +24,6 @@ requirements: [
   lead/525
 ]
 type: PowerTurret
-health: 250
+health: 2500
 category: turret
 buildVisibility: shown
