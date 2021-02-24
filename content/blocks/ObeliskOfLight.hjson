@@ -7,7 +7,7 @@ shootSound: spark
 shots: 1
 shootType: {
   type: LaserBulletType
-  lightningLength: 100
+  laserLength: 100
   damage: 600
 }
 rotateSpeed: 200
