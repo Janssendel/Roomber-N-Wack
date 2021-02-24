@@ -1,13 +1,13 @@
 localizedName: Obelisk Of Light
 description: Powerful anti-unit weaponry , good against crowds
-size: 1
+size: 3
 range: 150
 reloadTime: 1
 shootSound: spark
 shootCone: 40
 shots: 50
 shootType: {
-  type: LightningBulletType
+  type: LaserBulletType
   lightningLength: 50
   damage: 600
 }
