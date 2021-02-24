@@ -1,5 +1,5 @@
 type: flying
-localizedName: Oracle
+localizedName: Laguana
 description: A massive starship, capable of easily destroying the most powerful units and laying waste to any base in its path. Avoid encounters if possible.
 details: "One of the last intact remnants of a long lost civilization. Powerful, relentless, nearly indestructible. But not invincible. \n\nDo you have the strength to take it down?"
 speed: 0.4
@@ -11,6 +11,161 @@ hitSize: 288
 health: 765500450
 armor: 344530
 lowAltitude: true
-rotateSpeed: 0.1
+rotateSpeed: 0.5
 engineOffset: 180
 engineSize: 25
+weapons: [
+{
+name: PDC 
+x: 30
+y: 10
+rotate: true
+reload: 5
+mirror: true
+shootSound:shootBig
+bullet: {
+type: BasicBulletType
+lifetime: 100
+damage: 40
+speed: 40
+}
+{
+name: PDC 
+x: 30
+y: 10
+rotate: true
+reload: 5
+mirror: true
+shootSound:shootBig
+bullet: {
+type: BasicBulletType
+lifetime: 100
+damage: 40
+speed: 40
+}
+{
+name: PDC 
+x: 40
+y: 10
+rotate: true
+reload: 5
+mirror: true
+shootSound:shootBig
+bullet: {
+type: BasicBulletType
+lifetime: 100
+damage: 40
+speed: 40
+}
+{
+name: PDC 
+x: 30
+y: 10
+rotate: true
+reload: 5
+mirror: true
+shootSound:shootBig
+bullet: {
+type: BasicBulletType
+lifetime: 100
+damage: 40
+speed: 40
+}
+{
+name: PDC 
+x: 30
+y: 10
+rotate: true
+reload: 5
+mirror: true
+shootSound:shootBig
+bullet: {
+type: BasicBulletType
+lifetime: 100
+damage: 40
+speed: 40
+}
+{
+name: PDC 
+x: 30
+y: 10
+rotate: true
+reload: 5
+mirror: true
+shootSound:shootBig
+bullet: {
+type: BasicBulletType
+lifetime: 100
+damage: 40
+speed: 40
+}
+{
+name: PDC 
+x: 30
+y: 10
+rotate: true
+reload: 5
+mirror: true
+shootSound:shootBig
+bullet: {
+type: BasicBulletType
+lifetime: 100
+damage: 40
+speed: 40
+}
+{
+name: PDC 
+x: 30
+y: 10
+rotate: true
+reload: 5
+mirror: true
+shootSound:shootBig
+bullet: {
+type: BasicBulletType
+lifetime: 100
+damage: 40
+speed: 40
+}
+{
+name: PDC 
+x: 30
+y: 10
+rotate: true
+reload: 5
+mirror: true
+shootSound:shootBig
+bullet: {
+type: BasicBulletType
+lifetime: 100
+damage: 40
+speed: 40
+}
+{
+name: PDC 
+x: 30
+y: 10
+rotate: true
+reload: 5
+mirror: true
+shootSound:shootBig
+bullet: {
+type: BasicBulletType
+lifetime: 100
+damage: 40
+speed: 40
+}
+{
+name: PDC 
+x: 30
+y: 10
+rotate: true
+reload: 5
+mirror: true
+shootSound:shootBig
+bullet: {
+type: BasicBulletType
+lifetime: 100
+damage: 40
+speed: 40
+}
