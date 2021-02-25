@@ -57,6 +57,16 @@ plans: [
   thorium/100
   ]
   }
+    {
+  unit: Laguna
+  time:1
+  requirements: [
+  silicon/10
+  lead/10
+  pyratite/100
+  thorium/100
+  ]
+  }
   ]
 requirements: [
   lead/550
