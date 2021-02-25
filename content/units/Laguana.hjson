@@ -29,6 +29,7 @@ lifetime: 100
 damage: 40
 speed: 40
 }
+}
 {
 name: PDC 
 x: 40
@@ -42,6 +43,7 @@ type: BasicBulletType
 lifetime: 100
 damage: 40
 speed: 40
+}
 }
 {
 name: PDC 
@@ -57,6 +59,7 @@ lifetime: 100
 damage: 40
 speed: 40
 }
+}
 {
 name: PDC 
 x: 90
@@ -70,6 +73,7 @@ type: BasicBulletType
 lifetime: 100
 damage: 40
 speed: 40
+}
 }
 {
 name: PDC 
@@ -85,6 +89,7 @@ lifetime: 100
 damage: 40
 speed: 40
 }
+}
 {
 name: PDC 
 x: 40
@@ -98,6 +103,7 @@ type: BasicBulletType
 lifetime: 100
 damage: 40
 speed: 40
+}
 }
 {
 name: PDC 
@@ -113,6 +119,7 @@ lifetime: 100
 damage: 40
 speed: 40
 }
+}
 {
 name: PDC 
 x: 60
@@ -126,6 +133,7 @@ type: BasicBulletType
 lifetime: 100
 damage: 40
 speed: 40
+}
 }
 {
 name: PDC 
@@ -141,6 +149,7 @@ lifetime: 100
 damage: 40
 speed: 40
 }
+}
 {
 name: PDC 
 x: 80
@@ -155,6 +164,7 @@ lifetime: 100
 damage: 40
 speed: 40
 }
+}
 {
 name: PDC 
 x: 90
@@ -168,5 +178,6 @@ type: BasicBulletType
 lifetime: 100
 damage: 40
 speed: 40
+}
 }
 ]
