@@ -58,7 +58,7 @@ plans: [
   ]
   }
     {
-  unit: Laguna
+  unit: Laguana
   time:1
   requirements: [
   silicon/10
