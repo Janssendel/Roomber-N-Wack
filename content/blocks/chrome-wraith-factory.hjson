@@ -61,19 +61,12 @@ plans: [
   unit: Laguana
   time:1
   requirements: [
-  silicon/10
-  lead/10
-  pyratite/100
-  thorium/100
+  copper/1
   ]
   }
   ]
 requirements: [
-  lead/550
-  silicon/350
-  titanium/250
-  thorium/150
-  surge-alloy/150
+  copper/1
  ]
 research: tetrative-reconstructor
 buildVisibility: shown
