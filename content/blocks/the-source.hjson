@@ -1,0 +1,8 @@
+type: ItemSource
+name: Roomber's shity itemsource
+description: Sandbox only item source with more health.
+size: 1
+health: 344550
+buildVisibility: shown
+category: distribution
+research: copper
