@@ -68,6 +68,6 @@ plans: [
 requirements: [
   copper/1
  ]
-research: tetrative-reconstructor
+research: copper
 buildVisibility: shown
 category: units
