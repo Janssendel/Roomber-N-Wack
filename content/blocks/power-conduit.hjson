@@ -1,0 +1,16 @@
+type: PowerSource
+name: Roomba's Reality Power Conduit
+description: Creates power from a dimensional rift that connect to a Roombanion-allied realm that has a Extractor Power Plant
+size: 1
+details: It fits because it is a cheating item
+health: 344550
+maxNodes: 255
+laserRange: 15
+laserColor1: c45f5f
+laserColor2: ff0000
+powerProduction: 1354450
+buildVisibility: shown
+category: power
+requirements: [
+copper/1
+]
