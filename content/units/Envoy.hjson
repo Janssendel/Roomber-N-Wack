@@ -1,0 +1,36 @@
+type: legs
+localizedName: "Envoy"
+description: "An annoying thing that will never stop shooting at you"
+speed: 2.9
+hitSize: 10
+health: 4000
+armor: 20
+legCount: 2
+legLength: 3
+legTrns: 0.8
+legMoveSpace: 0.7
+legBaseOffset: 0.2
+legScale: 1.15
+hovering: true
+range: 64
+buildSpeed: 3
+allowLegStep: true
+
+weapons:[
+  {
+    name: "leadspitter"
+reload: 4
+rotate: true	
+x: 1
+y: 3
+shootSound: shootBig
+bullet: {
+type: BasicBulletType
+damage: 10
+color: ffd37f
+shootEffect: shootBig
+lifetime: 100
+knockback: 100
+}
+   }
+]
