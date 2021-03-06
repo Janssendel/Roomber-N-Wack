@@ -1,14 +1,16 @@
 localizedName: Obelisk Of Light
 description: Powerful anti-unit weaponry , good against crowds
+details: "Using specialized tech to overcharge the entire main beam , the Obelisk reprents how roomba is good at using everything to his own cause"
 size: 3
 range: 1000
 reloadTime: 70
+shootCone: 0
 shootSound: spark
 shots: 1
 shootType: {
-  type: LaserBulletType
-  laserLength: 100
-  damage: 600
+  type: LightningBulletType
+  damage: 225440
+  lightningLength: 54
 }
 rotateSpeed: 200
 powerUse: 10000
