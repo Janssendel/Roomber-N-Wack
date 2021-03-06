@@ -1,7 +1,7 @@
 type: flying
 localizedName: ICBM
-description: It's an old model of ICBM Roomber made during 
-details: "One of the last intact remnants of a long lost civilization. Powerful, relentless, nearly indestructible. But not invincible. \n\nDo you have the strength to take it down?"
+description: It's an old model of ICBM Roomber made during a long Long Range Missile War.
+details: "Old ass ICBM used , probably out of date and very much an antique missile . Still , it has some good explosion range
 speed: 10
 accel: 10
 flying: true
@@ -14,22 +14,27 @@ lowAltitude: true
 rotateSpeed: 6
 engineOffset: 10
 engineSize: 25
-weapons : [
+weapons: [
 {
- name: laser-repeaters
-    shootCone: 60
-    alternate: false
-    reload: 1
-    x: 2
-    y: 4
-    mirror: true
-    shootSound: laser
-    bullet: {
-      type: LaserBulletType
-      colors: [00000066, 000000, 7f7f7f]
-      damage: 500
-      collidesAir: true
-      length: 400
-}
+  shots: 1
+  shake: 10
+  reload: 60
+  shootSound: explosionBig
+  shootCone: 360
+  ignoreRotation: true
+  x: 0
+  y: 0
+  mirror: false 
+  bullet: {
+    type: BombBulletType
+    lifetime: 0
+    splashDamage: 650
+    splashDamageRadius: 300
+    killShooter: true
+    hittable: false
+    despawnEffect: impactcloud
+    maxRange: 32
+    collidesAir: true
+  }
 }
 ]
