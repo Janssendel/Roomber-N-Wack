@@ -180,5 +180,21 @@ damage: 40
 speed: 40
 }
 }
+{
+name: laser-repeaters
+x: 10 
+y: 100
+rotate: true
+mirror: true
+reload: 2
+shootSound: bang
+bullet: {
+type: LaserBulletType
+damage: 60
+length: 1000
+width: 40
+lifetime: 1
+}
+}
 ]
 research: copper
