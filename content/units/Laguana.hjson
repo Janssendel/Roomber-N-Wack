@@ -17,6 +17,111 @@ engineSize: 25
 weapons: [
 {
 name: PDC 
+x: 10
+y: 30
+rotate: true
+reload: 5
+mirror: true
+shootSound:shootBig
+bullet: {
+type: BasicBulletType
+lifetime: 100
+damage: 40
+speed: 40
+}
+}
+{
+name: PDC 
+x: 10
+y: 40
+rotate: true
+reload: 5
+mirror: true
+shootSound:shootBig
+bullet: {
+type: BasicBulletType
+lifetime: 100
+damage: 40
+speed: 40
+}
+}
+{
+name: PDC 
+x: 10
+y: 50
+rotate: true
+reload: 5
+mirror: true
+shootSound:shootBig
+bullet: {
+type: BasicBulletType
+lifetime: 100
+damage: 40
+speed: 40
+}
+}
+{
+name: PDC 
+x: 10
+y: 60
+rotate: true
+reload: 5
+mirror: true
+shootSound:shootBig
+bullet: {
+type: BasicBulletType
+lifetime: 100
+damage: 40
+speed: 40
+}
+}
+{
+name: PDC 
+x: 10
+y: 70
+rotate: true
+reload: 5
+mirror: true
+shootSound:shootBig
+bullet: {
+type: BasicBulletType
+lifetime: 100
+damage: 40
+speed: 40
+}
+}
+{
+name: PDC 
+x: 10
+y: 80
+rotate: true
+reload: 5
+mirror: true
+shootSound:shootBig
+bullet: {
+type: BasicBulletType
+lifetime: 100
+damage: 40
+speed: 40
+}
+}
+{
+name: PDC 
+x: 10
+y: 90
+rotate: true
+reload: 5
+mirror: true
+shootSound:shootBig
+bullet: {
+type: BasicBulletType
+lifetime: 100
+damage: 40
+speed: 40
+}
+}
+{
+name: PDC 
 x: 30
 y: 10
 rotate: true
@@ -32,38 +137,8 @@ speed: 40
 }
 {
 name: PDC 
-x: 40
-y: 10
-rotate: true
-reload: 5
-mirror: true
-shootSound:shootBig
-bullet: {
-type: BasicBulletType
-lifetime: 100
-damage: 40
-speed: 40
-}
-}
-{
-name: PDC 
-x: 80
-y: 10
-rotate: true
-reload: 5
-mirror: true
-shootSound:shootBig
-bullet: {
-type: BasicBulletType
-lifetime: 100
-damage: 40
-speed: 40
-}
-}
-{
-name: PDC 
-x: 90
-y: 10
+x: 30
+y: 20
 rotate: true
 reload: 5
 mirror: true
@@ -92,83 +167,8 @@ speed: 40
 }
 {
 name: PDC 
-x: 40
-y: 30
-rotate: true
-reload: 5
-mirror: true
-shootSound:shootBig
-bullet: {
-type: BasicBulletType
-lifetime: 100
-damage: 40
-speed: 40
-}
-}
-{
-name: PDC 
-x: 50
-y: 30
-rotate: true
-reload: 5
-mirror: true
-shootSound:shootBig
-bullet: {
-type: BasicBulletType
-lifetime: 100
-damage: 40
-speed: 40
-}
-}
-{
-name: PDC 
-x: 60
-y: 30
-rotate: true
-reload: 5
-mirror: true
-shootSound:shootBig
-bullet: {
-type: BasicBulletType
-lifetime: 100
-damage: 40
-speed: 40
-}
-}
-{
-name: PDC 
-x: 70
-y: 30
-rotate: true
-reload: 5
-mirror: true
-shootSound:shootBig
-bullet: {
-type: BasicBulletType
-lifetime: 100
-damage: 40
-speed: 40
-}
-}
-{
-name: PDC 
-x: 80
-y: 30
-rotate: true
-reload: 5
-mirror: true
-shootSound:shootBig
-bullet: {
-type: BasicBulletType
-lifetime: 100
-damage: 40
-speed: 40
-}
-}
-{
-name: PDC 
-x: 90
-y: 30
+x: 30
+y: 40
 rotate: true
 reload: 5
 mirror: true
