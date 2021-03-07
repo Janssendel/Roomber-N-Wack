@@ -8,3 +8,7 @@ This mod allows you to cheat campaign because why not?
 Roomba
  
 LeojEspino (for Legion's sprite)
+
+# Author
+
+[Red][TMC]Roomba
