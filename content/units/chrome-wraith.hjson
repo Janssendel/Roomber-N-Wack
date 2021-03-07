@@ -16,14 +16,13 @@ engineOffset: 140
 engineSize: 25
 weapons: [
   {
-    name: orb-launcher
+    name: artillery-cannon
     x: 0
     y: 0
     rotate: true
     reload:  1
     shootSound: shootBig
     bullet: {
-    sprite: orb-yellow
     damage: 90000
     speed: 10
     lifetime: 100
@@ -82,7 +81,8 @@ cooldown: 20
 radius: 100
 regen: 800
 }
-{type: "mindustry.entities.abilities.RepairFieldAbility"
+{
+type: "mindustry.entities.abilities.RepairFieldAbility"
     range: 160
     amount: 250
     reload: 30
@@ -90,8 +90,8 @@ regen: 800
    {
     type: UnitSpawnAbility
     unit: flare
-    spawnX: -30
-    spawnY: 0
-    spawnTime: 1
+    spawnX: 0
+    spawnY: -40
+    spawnTime: 1000
   }
 ]
