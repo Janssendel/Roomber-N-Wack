@@ -10,8 +10,8 @@ weapons:[
     name: "leadspitter"
 reload: 4
 rotate: true	
-x: 1
-y: 3
+x: 4
+y: 0
 shootSound: shootBig
 bullet: {
 type: BasicBulletType
