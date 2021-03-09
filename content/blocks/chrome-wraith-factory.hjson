@@ -64,6 +64,14 @@ plans: [
   copper/1
   ]
   }
+   }
+    {
+  unit: Envoy
+  time:1
+  requirements: [
+  copper/1
+  ]
+  }
   ]
 requirements: [
   copper/1
