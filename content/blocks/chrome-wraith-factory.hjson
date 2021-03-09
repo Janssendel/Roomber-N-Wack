@@ -64,7 +64,6 @@ plans: [
   copper/1
   ]
   }
-   }
     {
   unit: Envoy
   time:1
