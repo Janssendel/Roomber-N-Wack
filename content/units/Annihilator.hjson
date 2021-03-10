@@ -7,7 +7,7 @@ accel: 0.5
 flying: true
 range: 140
 circleTarget: false
-hitSize: 220
+hitSize: 10
 health: 765500450
 armor: 344530
 lowAltitude: true
@@ -32,4 +32,75 @@ weapons: [
       collidesAir: true
 }
 }
+{
+ name: shadow-laser
+    shootCone: 60
+    recoil: 3
+    alternate: false
+    reload: 8
+    x: 0
+    y: 2
+    mirror: false
+    shootSound: laser
+    bullet: {
+      type: LaserBulletType
+      colors: [00000066, 000000, 7f7f7f]
+      damage: 500
+      collidesAir: true
+      }
+      }
 ]
+abilities: [
+ {
+    type: "mindustry.entities.abilities.RepairFieldAbility"
+    range: 160
+    amount: 250
+    reload: 30
+  }
+  {
+    type: "mindustry.entities.abilities.ForceFieldAbility"
+    radius: 20
+    regen: 10
+    max: 15500
+    cooldown: 1
+    }
+     {
+    type: "mindustry.entities.abilities.RepairFieldAbility"
+    range: 160
+    amount: 250
+    reload: 30
+  }
+  {
+    type: "mindustry.entities.abilities.ForceFieldAbility"
+    radius: 30
+    regen: 10
+    max: 15500
+    cooldown: 1
+    } {
+    type: "mindustry.entities.abilities.RepairFieldAbility"
+    range: 160
+    amount: 250
+    reload: 30
+  }
+  {
+    type: "mindustry.entities.abilities.ForceFieldAbility"
+    radius: 40
+    regen: 10
+    max: 15500
+    cooldown: 1
+    }
+     {
+    type: "mindustry.entities.abilities.RepairFieldAbility"
+    range: 160
+    amount: 250
+    reload: 30
+  }
+  {
+    type: "mindustry.entities.abilities.ForceFieldAbility"
+    radius: 50
+    regen: 10
+    max: 15500
+    cooldown: 1
+    }
+    ]
+    
