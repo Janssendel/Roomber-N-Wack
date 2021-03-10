@@ -2,6 +2,9 @@ name: Plasma
 description: Spicy sun stuff , made from an oven by superheating it into a mini sun.
 details: "How2Make: Put a spoon inside an oven . Crank the heat to 11 . Watch as it turns into a mini sun . Then you shall harvest it ."
 temperature: 100000
+flammibility: 100
 viscosity: 1
+heatCapacity: 1
+explosiveness: 1000
 effect: melting
 color: efe4ca
