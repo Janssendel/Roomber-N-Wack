@@ -1,7 +1,7 @@
 type: flying
 localizedName: Laguana
 description: A massive starship, capable of easily destroying the most powerful units and laying waste to any base in its path. Avoid encounters if possible.
-details: "One of the last intact remnants of a long lost civilization. Powerful, relentless, nearly indestructible. But not invincible. \n\nDo you have the strength to take it down?"
+details: "Aeugh"
 speed: 0.4
 accel: 0.5
 flying: true
@@ -14,6 +14,7 @@ lowAltitude: true
 rotateSpeed: 0.5
 engineOffset: 180
 engineSize: 25
+rotateShooting: false
 weapons: [
 {
 name: PDC 
@@ -189,7 +190,7 @@ mirror: true
 reload: 2
 shootSound: bang
 bullet: {
-type: LaserBulletType
+type: LaserBoltBulletType
 damage: 60
 length: 1000
 width: 40
