@@ -14,6 +14,7 @@ lowAltitude: true
 rotateSpeed: 0.5
 engineOffset: 140
 engineSize: 25
+ambientSound: 9
 weapons: [
   {
     name: artillery-cannon
@@ -45,7 +46,7 @@ weapons: [
     bullet: {
     type: MissileBulletType
     damage: 300000
-    speed: 3
+    speed: 10
     lifetime:200
     splashDamage: 30000
     splashDamageRadius: 40
@@ -84,14 +85,14 @@ regen: 800
 {
 type: "mindustry.entities.abilities.RepairFieldAbility"
     range: 160
-    amount: 250
+    amount: 1000000
     reload: 30
   }
    {
     type: UnitSpawnAbility
-    unit: flare
+    unit: chrome-wraith
     spawnX: 0
-    spawnY: -40
+    spawnY: 0
     spawnTime: 1000
   }
 ]
