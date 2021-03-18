@@ -1,0 +1,11 @@
+type: ParticleWeather
+color: 515151
+particleRegion: particle
+sizeMax: 2
+sizeMin: 1
+density: 3000
+status: 
+useWindVector: true
+drawNoise: true
+opacityMultiplier: 1
+force: 100
