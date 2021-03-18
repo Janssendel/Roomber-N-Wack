@@ -1,12 +1,13 @@
 type: flying
 localizedName: Legion
 description: A remote base , if you say so . A Roomber ship able to defeat even the most grand of ships , able to leave a trail of destruction as it advances to spearhead the attack against the wretched foes of Roombanion 
-details: "A Roombanion ship meant for destroying Exotic Mod units and a counter to their flagship , the Hellfire , the Legion accels as a specialist ship that can tank and destroy threats of magnitudes higher."
+details: "A Roombanion ship meant for destroying Exotic Mod units and a counter to their flagship , the Hellfire . the Legion accels as a specialist ship that can tank and destroy threats of magnitudes higher."
 speed: 1
 accel: 1
 flying: true
 range: 200
 circleTarget: true
+rotateShooting: false
 hitSize: 288
 health: 765500450
 armor: 344530
@@ -73,13 +74,32 @@ weapons: [
     trailColor: ff0000
     }
     }
+    {
+    name: Lopteckt
+    x: 12
+    y: 22
+    rotate: false
+    reload: 6
+    continuous: true
+    shootSound: beam
+    shootY: 10
+    bullet: {
+      type: ContinuousLaserBulletType
+      damage: 140
+      length: 800
+      lifetime: 80
+      drawSize: 110
+      width: 4
+      colors: [c45f5f, ec7458, 515151, 656565]
+    }
+  }
     ]
 abilities: [
 {
 type: "mindustry.entities.abilities.ForceFieldAbility"
 max: 99000
 cooldown: 20
-radius: 100
+radius: 300
 regen: 800
 }
 {
