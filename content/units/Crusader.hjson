@@ -1,0 +1,83 @@
+type: naval
+localizedName: Crusader
+description: In order to achieve a full-time naval base , the Crusader sacrificed it's weapons for the angels of god . it is a aircraft carrier mentioned from the Serpulusium Biblus as a ship meant to carry god's holy will . 
+speed: 0.5
+accel: 0.5
+flying: false
+range: 576
+hitSize: 32
+health: 32550
+rotateSpeed: 3
+rotateShooting: false
+abilities: [
+ {
+    type: UnitSpawnAbility
+    unit: flare
+    spawnX: 10
+    spawnY: 10
+    spawnTime: 400
+  } 
+  {
+    type: UnitSpawnAbility
+    unit: flare
+    spawnX: 10
+    spawnY: -10
+    spawnTime: 400
+  } 
+  {
+    type: UnitSpawnAbility
+    unit: flare
+    spawnX: 10
+    spawnY: -20
+    spawnTime: 400
+  } 
+  {
+    type: UnitSpawnAbility
+    unit: flare
+    spawnX: 10
+    spawnY: 20
+    spawnTime: 400
+  }
+   {
+    type: UnitSpawnAbility
+    unit: flare
+    spawnX: 10
+    spawnY: -30
+    spawnTime: 400
+  }
+   {
+    type: UnitSpawnAbility
+    unit: flare
+    spawnX: 10
+    spawnY: 30
+    spawnTime: 400
+  } 
+  {
+    type: UnitSpawnAbility
+    unit: flare
+    spawnX: 10
+    spawnY: -40
+    spawnTime: 400
+  }
+  {
+    type: UnitSpawnAbility
+    unit: flare
+    spawnX: 10
+    spawnY: 40
+    spawnTime: 400
+  } 
+  {
+    type: UnitSpawnAbility
+    unit: flare
+    spawnX: 10
+    spawnY: 50
+    spawnTime: 400
+  }
+  {
+    type: UnitSpawnAbility
+    unit: flare
+    spawnX: 10
+    spawnY: -50
+    spawnTime: 400
+  }
+  ]
