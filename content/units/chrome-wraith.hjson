@@ -15,7 +15,8 @@ lowAltitude: true
 rotateSpeed: 0.5
 engineOffset: 140
 engineSize: 25
-ambientSound: 9.ogg
+ambientSound: game4
+soundVol: 100
 weapons: [
   {
     name: artillery-cannon
