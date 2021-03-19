@@ -17,7 +17,7 @@ engineOffset: 10
 engineSize: 25
 weapons: [
 {
-  shots: 1
+  shots: 13
   shake: 10
   reload: 60
   shootSound: explosionBig
