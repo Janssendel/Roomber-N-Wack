@@ -4,8 +4,24 @@ particleRegion: particle
 sizeMax: 2
 sizeMin: 1
 density: 3000
-status: 
+status: {
+name: waves
+localizedName:Rift Waves
+damage: 100
+damageMultiplier: 10
+effect: {
+type: WaveEffect
+lifetime: 40
+sizeFrom: 10
+sizeTo: 10
+strokeFrom: 10
+strokeTo: 10
+colorFrom:515151
+colorTo: 646464
+}
+}
 useWindVector: true
 drawNoise: true
+noiseColor: 454545
 opacityMultiplier: 1
 force: 100
