@@ -25,3 +25,4 @@ drawNoise: true
 noiseColor: 454545
 opacityMultiplier: 1
 force: 100
+effectChance:100
