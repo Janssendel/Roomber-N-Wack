@@ -31,7 +31,117 @@ weapons: [
     lifetime: 0
     splashDamage: 650
     splashDamageRadius: 300
+    killShooter: false
+    hittable: false
+    despawnEffect: impactcloud
+    maxRange: 32
+    collidesAir: true
+  }
+}
+{
+  shots: 13
+  shake: 10
+  reload: 60
+  shootSound: explosionBig
+  shootCone: 360
+  ignoreRotation: true
+  x: 0
+  y: 0
+  mirror: false 
+  bullet: {
+    type: BombBulletType
+    lifetime: 0
+    splashDamage: 650
+    splashDamageRadius: 300
+    killShooter: false
+    hittable: false
+    despawnEffect: impactcloud
+    maxRange: 32
+    collidesAir: true
+  }
+}
+{
+  shots: 13
+  shake: 10
+  reload: 60
+  shootSound: explosionBig
+  shootCone: 360
+  ignoreRotation: true
+  x: 0
+  y: 0
+  mirror: false 
+  bullet: {
+    type: BombBulletType
+    lifetime: 0
+    splashDamage: 650
+    splashDamageRadius: 300
+    killShooter: false
+    hittable: false
+    despawnEffect: impactcloud
+    maxRange: 32
+    collidesAir: true
+  }
+}
+{
+  shots: 13
+  shake: 10
+  reload: 60
+  shootSound: explosionBig
+  shootCone: 360
+  ignoreRotation: true
+  x: 0
+  y: 0
+  mirror: false 
+  bullet: {
+    type: BombBulletType
+    lifetime: 0
+    splashDamage: 650
+    splashDamageRadius: 300
     killShooter: true
+    hittable: false
+    despawnEffect: impactcloud
+    maxRange: 32
+    collidesAir: true
+  }
+}
+{
+  shots: 13
+  shake: 10
+  reload: 60
+  shootSound: explosionBig
+  shootCone: 360
+  ignoreRotation: true
+  x: 0
+  y: 0
+  mirror: false 
+  bullet: {
+    type: BombBulletType
+    lifetime: 0
+    splashDamage: 650
+    splashDamageRadius: 300
+    killShooter: false
+    hittable: false
+    despawnEffect: impactcloud
+    maxRange: 32
+    collidesAir: true
+  }
+}
+{
+  shots: 13
+  shake: 10
+  reload: 60
+  shootSound: explosionBig
+  shootCone: 360
+  ignoreRotation: true
+  x: 0
+  y: 0
+  mirror: false 
+  bullet: {
+    type: BombBulletType
+    lifetime: 0
+    splashDamage: 650
+    splashDamageRadius: 300
+    killShooter: false
     hittable: false
     despawnEffect: impactcloud
     maxRange: 32
