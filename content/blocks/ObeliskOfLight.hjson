@@ -4,7 +4,7 @@ details: "Using specialized tech to overcharge the entire main beam , the Obelis
 size: 3
 range: 1000
 reloadTime: 70
-shootCone: 0
+shootCone: 36
 shootSound: spark
 shots: 1
 shootType: {
