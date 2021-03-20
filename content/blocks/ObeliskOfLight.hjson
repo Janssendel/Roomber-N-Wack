@@ -1,31 +1,25 @@
-localizedName: Obelisk Of Light
-description: Powerful anti-unit weaponry , good against crowds
-details: "Using specialized tech to overcharge the entire main beam , the Obelisk reprents how roomba is good at using everything to his own cause"
+localizedName: Obelisk
+description: A heavy laser cannon , meant to make things on fire
+type: ItemTurret
+reloadTime: 480
+recoilAmount: 0
+shootCone: 0
+range: 400
+cooldown: 0.015
+restitution: 0.015
 size: 3
-range: 1000
-reloadTime: 70
-shootCone: 36
-shootSound: spark
-shots: 1
-shootType: {
-  type: LightningBulletType
-  damage: 225440
-  lightningLength: 54
-}
-rotateSpeed: 200
-powerUse: 10000
+shots: 500
+inaccuracy: 0
+spread: 0
 targetAir: true
 targetGround: true
+shootType: {
+  type: LaserBulletType
+  laserLength: 100
+  damage: 20
+}
+rotateSpeed: 100
+powerUse: 1
 heatColor: ff0000
-shootEffect: lightningShoot
-recoilAmount: 1
-cooldown: 0.02
-restitution: 0.02
-requirements: [
-  copper/1500
-  lead/525
-]
-type: PowerTurret
-health: 2500
-category: turret
-buildVisibility: shown
+shootEffect: laserHit
+shootSound:lasershoot
