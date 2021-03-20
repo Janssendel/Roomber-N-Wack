@@ -15,11 +15,12 @@ targetAir: true
 targetGround: true
 shootType: {
   type: LaserBulletType
-  laserLength: 100
+  length: 500
+  width: 10
   damage: 20
 }
 rotateSpeed: 100
 powerUse: 1
 heatColor: ff0000
 shootEffect: laserHit
-shootSound:lasershoot
+shootSound: lasershoot
