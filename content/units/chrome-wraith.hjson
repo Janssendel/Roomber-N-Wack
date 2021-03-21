@@ -94,7 +94,7 @@ weapons: [
       colors: [c45f5f, ec7458, 515151, 656565]
     }
   }
-}   
+  ]
 abilities: [
 {
 type: "mindustry.entities.abilities.ForceFieldAbility"
