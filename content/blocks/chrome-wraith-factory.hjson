@@ -48,16 +48,6 @@ plans: [
   ]
   }
   {
-  unit: Punisher
-  time:1
-  requirements: [
-  silicon/10
-  lead/10
-  pyratite/100
-  thorium/100
-  ]
-  }
-    {
   unit: Laguana
   time:1
   requirements: [
