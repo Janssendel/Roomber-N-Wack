@@ -22,5 +22,5 @@ shootType: {
 rotateSpeed: 100
 powerUse: 1
 heatColor: ff0000
-shootEffect: bang
+shootEffect: artillery
 shootSound: lasershoot
