@@ -80,7 +80,7 @@ weapons: [
     x: 12
     y: 22
     rotate: false
-    reload: 6
+    reload: 3
     continuous: true
     shootSound: beam
     shootY: 10
@@ -94,7 +94,7 @@ weapons: [
       colors: [c45f5f, ec7458, 515151, 656565]
     }
   }
-    ]
+}   
 abilities: [
 {
 type: "mindustry.entities.abilities.ForceFieldAbility"
@@ -116,4 +116,15 @@ type: "mindustry.entities.abilities.RepairFieldAbility"
     spawnY: 0
     spawnTime: 1000
   }
-]
+{
+type: StatusFieldAbility
+duration: 1000
+reload: 1
+range: 400
+effect: {
+name:TemporalTimelineStrike
+localizedName: Temporal Timeline Strike
+damage: 100000000
+effect: melting
+}
+}
