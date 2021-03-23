@@ -124,7 +124,7 @@ range: 400
 effect: {
 name:TemporalTimelineStrike
 localizedName: Temporal Timeline Strike
-damage: 100000000
+damage: 10
 effect: melting
 }
 }
