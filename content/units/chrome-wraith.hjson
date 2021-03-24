@@ -129,4 +129,4 @@ effect: melting
 }
 }
 ]
-immunities: [melting,wet,burning,Roomber-N-Wack-TemporalTimelineStrike,sapped,blasted,corroded,sporeSlowed,disarmed,tarred,freezing,unmoving,muddy]
+immunities: [melting,wet,burning,sapped,blasted,corroded,sporeSlowed,disarmed,tarred,freezing,unmoving,muddy]
