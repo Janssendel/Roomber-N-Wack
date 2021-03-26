@@ -1,6 +1,6 @@
-type: naval
-localizedName: Crusader
-description: In order to achieve a full-time naval base , the Crusader sacrificed it's weapons for the angels of god . it is a aircraft carrier mentioned from the Serpulusium Biblus as a ship meant to carry god's holy will . 
+type: flying
+localizedName: Bomb Tornado 
+description: Shoots homing projectile  
 speed: 0.5
 accel: 0.5
 flying: false
@@ -9,75 +9,29 @@ hitSize: 32
 health: 32550
 rotateSpeed: 3
 rotateShooting: false
-abilities: [
- {
-    type: UnitSpawnAbility
-    unit: flare
-    spawnX: 10
-    spawnY: 10
-    spawnTime: 400
-  } 
-  {
-    type: UnitSpawnAbility
-    unit: flare
-    spawnX: 10
-    spawnY: -10
-    spawnTime: 400
-  } 
-  {
-    type: UnitSpawnAbility
-    unit: flare
-    spawnX: 10
-    spawnY: -20
-    spawnTime: 400
-  } 
-  {
-    type: UnitSpawnAbility
-    unit: flare
-    spawnX: 10
-    spawnY: 20
-    spawnTime: 400
-  }
-   {
-    type: UnitSpawnAbility
-    unit: flare
-    spawnX: 10
-    spawnY: -30
-    spawnTime: 400
-  }
-   {
-    type: UnitSpawnAbility
-    unit: flare
-    spawnX: 10
-    spawnY: 30
-    spawnTime: 400
-  } 
-  {
-    type: UnitSpawnAbility
-    unit: flare
-    spawnX: 10
-    spawnY: -40
-    spawnTime: 400
-  }
-  {
-    type: UnitSpawnAbility
-    unit: flare
-    spawnX: 10
-    spawnY: 40
-    spawnTime: 400
-  } 
-  {
-    type: UnitSpawnAbility
-    unit: flare
-    spawnX: 10
-    spawnY: 50
-    spawnTime: 400
-  }
-  {
-    type: UnitSpawnAbility
-    unit: flare
-    spawnX: 10
-    spawnY: -50
-    spawnTime: 400
-  }
-  ]
+weapons: [
+{
+  name: megadumdum
+  x: 0
+  y: 0
+  rotate: false
+  reload:  1
+  shootSound: shootBig
+  shootCone: 360
+  spacing: 12
+  shots: 30
+  bullet: {
+    damage: 90000
+    speed: 10
+    lifetime: 100
+    pierce:true 
+    pierceBuilding: true
+    height: 20
+    width: 12
+    homingPower: 10.0
+    homingRange : 100
+    type: BombBulletType
+ }
+} 
+]
+   
