@@ -61,7 +61,13 @@ plans: [
   copper/1
   ]
   }
+     {
+  unit: Abductor
+  time:1
+  requirements: [
+  copper/1
   ]
+  }
 requirements: [
   copper/1
  ]
