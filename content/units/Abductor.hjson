@@ -1,4 +1,4 @@
-type: flying
+type: payload
 localizedName: Abductor
 description: To carry supplies from planet to planet , a ship that was big enough to carry things was needed , and thus , the Abductor-class heavy freighter was born
 speed: 0.5
@@ -12,3 +12,4 @@ rotateShooting: false
 payloadCapacity: 100000000000000
 engineSize: 400
 engineOffset: 0
+flying: true
