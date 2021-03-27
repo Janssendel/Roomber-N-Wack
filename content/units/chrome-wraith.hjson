@@ -146,7 +146,39 @@ weapons: [
       }
     }
   }
-]
+{
+name: Wetifier
+x: 0
+y: 0
+rotate: false
+reload: 1
+bullet: {
+type: BombBulletType
+damage: 0
+splashDamage: 0
+splashDamageRadius: 500
+effect: wet
+despawnEffect:{
+type: MultiEffect
+lifetime: 60
+effects:[
+{
+            type: ParticleEffect
+            line: true
+            particles: 30
+            length: 65
+            lifetime: 40
+            colorTo: 8aa3f4
+            strokeFrom: 3
+            strokeTo: 0
+            lenFrom: 1
+            lenTo: 10
+            }
+            ]
+            }
+            }
+            }
+            ]
 abilities: [
 {
 type: "mindustry.entities.abilities.ForceFieldAbility"
