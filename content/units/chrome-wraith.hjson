@@ -94,7 +94,59 @@ weapons: [
       colors: [c45f5f, ec7458, 515151, 656565]
     }
   }
-  ]
+  {
+  name: EMP 
+  x: 0
+  y: 0
+  rotate: false
+  reload: 1
+  bullet: {
+  type: BombBulletType
+  damage: 400000
+  lifetime: 0
+  splashDamage: 400000
+  splashDamageRadius: 500
+  despawnEffect:{
+     type: MultiEffect
+        lifetime: 60
+        effects: [
+          {
+            type: WaveEffect
+            sizeFrom: 0
+            sizeTo: 70
+            lifetime: 45
+            colorFrom: 8aa3f4
+            colorTo: a1b1d0
+            strokeFrom: 5
+            strokeTo: 0
+          }
+          {
+            type: ParticleEffect
+            line: true
+            particles: 30
+            length: 65
+            lifetime: 40
+            colorTo: 8aa3f4
+            strokeFrom: 3
+            strokeTo: 0
+            lenFrom: 1
+            lenTo: 10
+          }
+          {
+            type: ParticleEffect
+            particles: 20
+            length: 120
+            lifetime: 60
+            sizeFrom: 4
+            sizeTo: 4
+            colorFrom: 656565
+            colorTo: 515151
+          }
+        ]
+      }
+    }
+  }
+]
 abilities: [
 {
 type: "mindustry.entities.abilities.ForceFieldAbility"
@@ -115,18 +167,6 @@ type: "mindustry.entities.abilities.RepairFieldAbility"
     spawnX: 0
     spawnY: 0
     spawnTime: 1000
-  }
-{
-type: StatusFieldAbility
-duration: 1000
-reload: 1
-range: 400
-effect: {
-name:TemporalTimelineStrike
-localizedName: Temporal Timeline Strike
-damage: 10
-effect: melting
-}
-}
+    }
 ]
 immunities: [melting,wet,burning,sapped,blasted,corroded,sporeSlowed,disarmed,tarred,freezing,unmoving,muddy]
