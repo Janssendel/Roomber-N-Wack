@@ -10,6 +10,6 @@ health: 32550
 rotateSpeed: 3
 rotateShooting: false
 payloadCapacity: 100000000000000
-engineSize: 400
+engineSize: 250
 engineOffset: 0
 flying: true
