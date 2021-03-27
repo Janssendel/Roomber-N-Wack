@@ -16,15 +16,16 @@ engineOffset: 180
 engineSize: 25
 weapons: [
 {
-  name: shadow-laser
+  name: LastHope
     shootCone: 60
+    shots: 6
     recoil: 3
     alternate: false
     reload: 8
     x: 0
     y: 2
     mirror: false
-    shootSound: laser
+    shootSound: lhs
     bullet: {
       type: LaserBulletType
       colors: [00000066, 000000, 7f7f7f]
@@ -32,23 +33,6 @@ weapons: [
       collidesAir: true
 }
 }
-{
- name: shadow-laser
-    shootCone: 60
-    recoil: 3
-    alternate: false
-    reload: 8
-    x: 0
-    y: 2
-    mirror: false
-    shootSound: laser
-    bullet: {
-      type: LaserBulletType
-      colors: [00000066, 000000, 7f7f7f]
-      damage: 500
-      collidesAir: true
-      }
-      }
 ]
 abilities: [
  {
