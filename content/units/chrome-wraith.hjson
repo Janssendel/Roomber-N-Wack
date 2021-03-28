@@ -23,7 +23,7 @@ weapons: [
     x: 0
     y: 0
     rotate: true
-    reload:  1
+    reload:  7
     shootSound: shootBig
     bullet: {
     damage: 90000
@@ -34,7 +34,8 @@ weapons: [
     height: 20
     width: 12
     homingPower: 10.0
-    homingRange : 100
+    homingRange: 100
+    hitEffect:railHit
     }
     }
    {
@@ -52,7 +53,7 @@ weapons: [
     lifetime:200
     splashDamage: 30000
     splashDamageRadius: 40
-    hitEffect: flakExplosion
+    hitEffect: nuclearcloud
     trailColor: ff0000
     }
     }
@@ -71,7 +72,7 @@ weapons: [
     lifetime:200
     splashDamage: 30000
     splashDamageRadius: 40
-    hitEffect: flakExplosion
+    hitEffect: nuclearcloud
     trailColor: ff0000
     }
     }
