@@ -107,6 +107,7 @@ weapons: [
   lifetime: 0
   splashDamage: 400000
   splashDamageRadius: 500
+  hitEffect: lightningCharge
   despawnEffect:{
      type: MultiEffect
         lifetime: 60
