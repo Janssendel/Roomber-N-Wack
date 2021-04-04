@@ -1,6 +1,6 @@
 type: UnitFactory
 name: Constructor
-description: Produces any one of four selected basic units. Requires a large amount of water for coolant.
+description:  [ff0000] this is dangerous
 health: 455750
 size: 16
 consumes: {
@@ -66,6 +66,12 @@ plans: [
   time:1
   requirements: [
   copper/1
+  ]
+  }
+  {
+  unit: v1
+  requirements: [
+  copper:/1
   ]
   }
   ]
