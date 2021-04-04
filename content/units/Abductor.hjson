@@ -8,5 +8,5 @@ hitSize: 32
 health: 32550
 rotateSpeed: 3
 rotateShooting: false
-payloadCapacity: yes
+payloadCapacity: 10000000
 
