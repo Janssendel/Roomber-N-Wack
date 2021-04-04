@@ -1,83 +1,39 @@
-type: naval
-localizedName: Crusader
-description: In order to achieve a full-time naval base , the Crusader sacrificed it's weapons for the angels of god . it is a aircraft carrier mentioned from the Serpulusium Biblus as a ship meant to carry god's holy will . 
-speed: 0.5
+type: mech
+localizedName: V1
+description: [ff0000] MANKIND IS DEAD . BLOOD IS FUEL . HELL IS FULL
+speed: 1
 accel: 0.5
 flying: false
-range: 576
+range: 10
 hitSize: 32
-health: 32550
+health: 325
 rotateSpeed: 3
-rotateShooting: false
-abilities: [
- {
-    type: UnitSpawnAbility
-    unit: flare
-    spawnX: 10
-    spawnY: 10
-    spawnTime: 400
-  } 
-  {
-    type: UnitSpawnAbility
-    unit: flare
-    spawnX: 10
-    spawnY: -10
-    spawnTime: 400
-  } 
-  {
-    type: UnitSpawnAbility
-    unit: flare
-    spawnX: 10
-    spawnY: -20
-    spawnTime: 400
-  } 
-  {
-    type: UnitSpawnAbility
-    unit: flare
-    spawnX: 10
-    spawnY: 20
-    spawnTime: 400
-  }
-   {
-    type: UnitSpawnAbility
-    unit: flare
-    spawnX: 10
-    spawnY: -30
-    spawnTime: 400
-  }
-   {
-    type: UnitSpawnAbility
-    unit: flare
-    spawnX: 10
-    spawnY: 30
-    spawnTime: 400
-  } 
-  {
-    type: UnitSpawnAbility
-    unit: flare
-    spawnX: 10
-    spawnY: -40
-    spawnTime: 400
-  }
-  {
-    type: UnitSpawnAbility
-    unit: flare
-    spawnX: 10
-    spawnY: 40
-    spawnTime: 400
-  } 
-  {
-    type: UnitSpawnAbility
-    unit: flare
-    spawnX: 10
-    spawnY: 50
-    spawnTime: 400
-  }
-  {
-    type: UnitSpawnAbility
-    unit: flare
-    spawnX: 10
-    spawnY: -50
-    spawnTime: 400
-  }
-  ]
+rotateShooting: true
+canBoost: true
+canDrown
+immunities: [burning,melting,sporeSlowed,sapped,shocked,blasted,freezing,tarred]
+weapons: [
+{
+name:puncher
+x: 5,5
+y: 0
+type: RailBulletType
+hitEffect: impactShockwave
+reload: 9
+shootStatus: overclock
+shootStatusDuration: 10
+ejectEffect: steam
+heatColor: ff0000
+cooldownTime: 10
+shake: 40
+shootSound: corexplode
+noAmmoSound: noammo
+damage: 11
+knockback: 100
+lifetime: 1
+range: 8
+}
+]
+
+
+
