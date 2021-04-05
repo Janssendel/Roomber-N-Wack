@@ -16,23 +16,23 @@ weapons: [
 name:puncher
 x: 5,5
 y: 0
-reload: 9
-shootSound: corexplode
-noAmmoSound: noammo
-bullet: {
-type: RailBulletType
-hitEffect: impactShockwave
-shootStatus: overclock
-shootStatusDuration: 10
-ejectEffect: steam
-heatColor: ff0000
-cooldownTime: 10
-damage: 11
-knockback: 100
-lifetime: 1
-pierce: true
-pierceBuilding: true
-speed: 1000
+name: punchers
+    x: 5,5
+    y: 0
+    mirror: true
+    shootSound: corexplode
+    ejectEffect: steam
+    reload: 40
+    bullet: {
+      type: RailBulletType
+      damage: 20000
+      pierceDamageFactor: 100
+      length: 1
+      knockback: 100
+      shootEffect: impactShockwave
+      smokeEffect: steam
+      pierce: true
+      pierceBuilding: true
 }
 }
 ]
