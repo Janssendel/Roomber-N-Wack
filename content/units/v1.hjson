@@ -16,23 +16,23 @@ weapons: [
 name:puncher
 x: 5,5
 y: 0
+reload: 9
+shootSound: corexplode
+noAmmoSound: noammo
 bullet: {
 type: RailBulletType
 hitEffect: impactShockwave
-reload: 9
-noAmmoSound: noammo
 shootStatus: overclock
 shootStatusDuration: 10
 ejectEffect: steam
 heatColor: ff0000
 cooldownTime: 10
-shootSound: corexplode
 damage: 11
 knockback: 100
 lifetime: 1
-range: 8
 pierce: true
 pierceBuilding: true
+speed: 1000
 }
 }
 ]
