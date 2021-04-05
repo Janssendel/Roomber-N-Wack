@@ -16,8 +16,8 @@ weapons: [
 {
 name:puncher
 x: 5,5
-shake: 40
 y: 0
+shake: 40
 bullet: {
 type: RailBulletType
 hitEffect: impactShockwave
@@ -38,6 +38,3 @@ pierceBuilding: true
 }
 }
 ]
-
-
-
