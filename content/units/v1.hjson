@@ -10,14 +10,13 @@ health: 325
 rotateSpeed: 3
 rotateShooting: true
 canBoost: true
-canDrown
+canDrown: false
 immunities: [burning,melting,sporeSlowed,sapped,shocked,blasted,freezing,tarred]
 weapons: [
 {
 name:puncher
 x: 5,5
 y: 0
-shake: 40
 bullet: {
 type: RailBulletType
 hitEffect: impactShockwave
