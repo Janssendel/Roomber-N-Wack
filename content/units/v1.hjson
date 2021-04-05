@@ -16,7 +16,9 @@ weapons: [
 {
 name:puncher
 x: 5,5
+shake: 40
 y: 0
+bullet: {
 type: RailBulletType
 hitEffect: impactShockwave
 reload: 9
@@ -25,13 +27,15 @@ shootStatusDuration: 10
 ejectEffect: steam
 heatColor: ff0000
 cooldownTime: 10
-shake: 40
 shootSound: corexplode
 noAmmoSound: noammo
 damage: 11
 knockback: 100
 lifetime: 1
 range: 8
+pierce: true
+pierceBuilding: true
+}
 }
 ]
 
