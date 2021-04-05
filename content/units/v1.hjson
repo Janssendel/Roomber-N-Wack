@@ -11,7 +11,6 @@ rotateSpeed: 3
 rotateShooting: true
 canBoost: true
 canDrown: false
-immunities: [burning,melting,sporeSlowed,sapped,shocked,blasted,freezing,tarred]
 weapons: [
 {
 name:puncher
@@ -21,13 +20,13 @@ bullet: {
 type: RailBulletType
 hitEffect: impactShockwave
 reload: 9
+noAmmoSound: noammo
 shootStatus: overclock
 shootStatusDuration: 10
 ejectEffect: steam
 heatColor: ff0000
 cooldownTime: 10
 shootSound: corexplode
-noAmmoSound: noammo
 damage: 11
 knockback: 100
 lifetime: 1
@@ -37,3 +36,4 @@ pierceBuilding: true
 }
 }
 ]
+immunities: [burning,melting,sporeSlowed,sapped,shocked,blasted,freezing,tarred]
