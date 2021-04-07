@@ -21,7 +21,6 @@ name: punchers
     y: 0
     mirror: true
     shootSound: corexplode
-    ejectEffect: steam
     reload: 40
     bullet: {
       type: RailBulletType
@@ -36,4 +35,4 @@ name: punchers
 }
 }
 ]
-immunities: [burning,melting,sporeSlowed,sapped,shocked,blasted,freezing,tarred]
+immunities: [burning]
