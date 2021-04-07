@@ -3,34 +3,24 @@ localizedName: V1
 description: [ff0000] MANKIND IS DEAD . BLOOD IS FUEL . HELL IS FULL
 speed: 1
 accel: 0.5
-flying: false
 range: 10
 hitSize: 32
 health: 325
 rotateSpeed: 3
-rotateShooting: true
-canBoost: true
-canDrown: false
 weapons: [
 {
-name:puncher
-x: 5,5
-y: 0
 name: punchers
 x: 5,5
 y: 0
-    mirror: true
-    shootSound: corexplode
-    reload: 40
+    reload: 10
+    shootSound:corexplode
     bullet: {
-      type: RailBulletType
-      damage: 20000
-      pierceDamageFactor: 100
-      length: 1
+      type: SapBulletType
+      damage: 20
+      sapStrength: 30
       knockback: 100
       shootEffect: impactShockwave
-      pierce: true
-      pierceBuilding: true
+      hitEffect: fireballsmoke
       }
       }
       ]
