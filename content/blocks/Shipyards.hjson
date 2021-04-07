@@ -1,0 +1,83 @@
+type: UnitFactory
+name: Shipyards
+description:  Seriously , dont touch this, like [ff0000] don't.
+health: 455750
+size: 16
+consumes: {
+  power: 3.5
+  liquid: {
+    liquid: water
+    amount: 0.5
+  }
+}
+plans: [
+  {
+    unit: chrome-wraith
+    time: 2160
+    requirements: [
+      silicon/250
+      metaglass/300
+    ]
+  }
+  {
+    unit: Annihilator
+    time: 1
+    requirements: [
+      silicon/1
+      lead/30
+      plastanium/100
+    ]
+  }
+  {
+    unit: Attacktanka
+    time: 1
+    requirements: [
+      silicon/1
+      lead/30
+      plastanium/100
+    ]
+  }
+  {
+    unit: ICBM
+    time: 1
+    requirements: [
+      silicon/10
+      lead/10
+      pyratite/100
+      thorium/100
+    ]
+  }
+  {
+    unit: Laguana
+    time: 1
+    requirements: [
+      copper/1
+    ]
+  }
+  {
+    unit: Envoy
+    time: 1
+    requirements: [
+      copper/1
+    ]
+  }
+  {
+    unit: Abductor
+    time: 1
+    requirements: [
+      copper/1
+    ]
+  }
+  {
+    unit: v1
+    requirements: [
+      copper/1
+    ]
+  }
+  ]
+requirements: [
+  copper/1
+]
+research: copper
+buildVisibility: shown
+category: units
