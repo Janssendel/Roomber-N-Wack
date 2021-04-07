@@ -1,6 +1,6 @@
 type: UnitFactory
-name: Constructor
-description:  [ff0000]this is dangerous
+name: dingus
+description:  "[ff0000]this is dangerous"
 health: 455750
 size: 16
 consumes: {
