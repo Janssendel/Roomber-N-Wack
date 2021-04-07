@@ -20,64 +20,64 @@ plans: [
     ]
   }
   {
-  unit: Annihilator
-  time: 1
-  requirements: [
-  silicon/1
-  lead/30
-  plastanium/100
-  ]
+    unit: Annihilator
+    time: 1
+    requirements: [
+      silicon/1
+      lead/30
+      plastanium/100
+    ]
   }
   {
-  unit: Attacktanka
-  time: 1
-  requirements: [
-  silicon/1
-  lead/30
-  plastanium/100
-  ]
+    unit: Attacktanka
+    time: 1
+    requirements: [
+      silicon/1
+      lead/30
+      plastanium/100
+    ]
   }
   {
-  unit: ICBM
-  time:1
-  requirements: [
-  silicon/10
-  lead/10
-  pyratite/100
-  thorium/100
-  ]
+    unit: ICBM
+    time: 1
+    requirements: [
+      silicon/10
+      lead/10
+      pyratite/100
+      thorium/100
+    ]
   }
   {
-  unit: Laguana
-  time:1
-  requirements: [
-  copper/1
-  ]
-  }
-    {
-  unit: Envoy
-  time:1
-  requirements: [
-  copper/1
-  ]
-  }
-     {
-  unit: Abductor
-  time:1
-  requirements: [
-  copper/1
-  ]
+    unit: Laguana
+    time: 1
+    requirements: [
+      copper/1
+    ]
   }
   {
-  unit: v1
-  requirements: [
-  copper:/1
-  ]
+    unit: Envoy
+    time: 1
+    requirements: [
+      copper/1
+    ]
+  }
+  {
+    unit: Abductor
+    time: 1
+    requirements: [
+      copper/1
+    ]
+  }
+  {
+    unit: v1
+    requirements: [
+      copper/1
+    ]
   }
   ]
 requirements: [
   copper/1
- ]
+]
 research: copper
 buildVisibility: shown
 category: units
