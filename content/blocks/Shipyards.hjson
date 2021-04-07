@@ -1,6 +1,6 @@
 type: UnitFactory
 name: Shipyards
-description:  Seriously , dont touch this, like [ff0000] don't.
+description:  "Seriously , dont touch this, like [ff0000] don't."
 health: 455750
 size: 16
 consumes: {
