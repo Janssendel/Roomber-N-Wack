@@ -15,7 +15,7 @@ weapons: [
 {
 name: punchers
 x: 5,5
-y: 0
+y: 2
     reload: 10
     shootSound:corexplode
     bullet: {
