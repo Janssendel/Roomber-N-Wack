@@ -1,7 +1,7 @@
 type: mech
 localizedName: V1
-description: [ff0000] MANKIND IS DEAD . BLOOD IS FUEL . HELL IS FULL
-speed: 1
+description: MANKIND IS DEAD . BLOOD IS FUEL . HELL IS FULL
+speed: 2
 accel: 0.5
 range: 10
 hitSize: 32
