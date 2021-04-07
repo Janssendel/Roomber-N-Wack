@@ -14,8 +14,8 @@ trailLength: 100
 weapons: [
 {
 name: punchers
-x: 5,5
-y: 2
+x: 5
+y: 0
 reload: 10
 shootSound:corexplode
 bullet: {
