@@ -1,0 +1,206 @@
+type: payload
+localizedName: Legion
+description: A remote base , if you say so . A Roomber ship able to defeat even the most grand of ships , able to leave a trail of destruction as it advances to spearhead the attack against the wretched foes of Roombanion 
+details: "A Roombanion ship meant for destroying Exotic Mod units and a counter to their flagship , the Hellfire . the Legion accels as a specialist ship that can tank and destroy threats of magnitudes higher."
+speed: 1
+accel: 1
+flying: true
+range: 200
+circleTarget: true
+rotateShooting: false
+hitSize: 288
+health: 765500450
+armor: 344530
+payloadCapacity: 1000000
+lowAltitude: true
+rotateSpeed: 0.5
+engineOffset: 140
+engineSize: 25
+ambientSound: game4
+soundVol: 100
+weapons: [
+  {
+    name: artillery-cannon
+    x: 0
+    y: 0
+    rotate: true
+    reload:  7
+    shootSound: shootBig
+    bullet: {
+    damage: 90000
+    speed: 10
+    lifetime: 100
+    pierce:true 
+    pierceBuilding: true
+    height: 20
+    width: 12
+    homingPower: 10.0
+    homingRange: 100
+    hitEffect:railHit
+    }
+    }
+   {
+   name: torpedo-launcher
+    x: 60
+    y: 70
+    rotate: true
+    mirror: true
+    reload: 2
+    shootSound: missile
+    bullet: {
+    type: MissileBulletType
+    damage: 300000
+    speed: 10
+    lifetime:200
+    splashDamage: 30000
+    splashDamageRadius: 40
+    hitEffect: nuclearcloud
+    trailColor: ff0000
+    }
+    }
+ {
+   name: torpedo-launcher
+    x: -60
+    y: 70
+    rotate: true
+    mirror: true
+    reload: 2
+    shootSound: missile
+    bullet: {
+    type: MissileBulletType
+    damage: 300000
+    speed: 3
+    lifetime:200
+    splashDamage: 30000
+    splashDamageRadius: 40
+    hitEffect: nuclearcloud
+    trailColor: ff0000
+    }
+    }
+    {
+    name: Lopteckt
+    x: 12
+    y: 22
+    rotate: false
+    reload: 3
+    continuous: true
+    shootSound: beam
+    shootY: 10
+    bullet: {
+      type: ContinuousLaserBulletType
+      damage: 140
+      length: 800
+      lifetime: 80
+      drawSize: 110
+      width: 4
+      colors: [c45f5f, ec7458, 515151, 656565]
+    }
+  }
+  {
+  name: EMP 
+  x: 0
+  y: 0
+  rotate: false
+  reload: 1
+  bullet: {
+  type: BombBulletType
+  damage: 400000
+  lifetime: 0
+  splashDamage: 400000
+  splashDamageRadius: 500
+  hitEffect: lightningCharge
+  despawnEffect:{
+     type: MultiEffect
+        lifetime: 60
+        effects: [
+          {
+            type: WaveEffect
+            sizeFrom: 0
+            sizeTo: 70
+            lifetime: 45
+            colorFrom: 8aa3f4
+            colorTo: a1b1d0
+            strokeFrom: 5
+            strokeTo: 0
+          }
+          {
+            type: ParticleEffect
+            line: true
+            particles: 30
+            length: 65
+            lifetime: 40
+            colorTo: 8aa3f4
+            strokeFrom: 3
+            strokeTo: 0
+            lenFrom: 1
+            lenTo: 10
+          }
+          {
+            type: ParticleEffect
+            particles: 20
+            length: 120
+            lifetime: 60
+            sizeFrom: 4
+            sizeTo: 4
+            colorFrom: 656565
+            colorTo: 515151
+          }
+        ]
+      }
+    }
+  }
+{
+name: Wetifier
+x: 0
+y: 0
+rotate: false
+reload: 1
+bullet: {
+type: BombBulletType
+damage: 0
+splashDamage: 0
+splashDamageRadius: 500
+effect: wet
+despawnEffect:{
+type: MultiEffect
+lifetime: 60
+effects:[
+{
+            type: ParticleEffect
+            line: true
+            particles: 30
+            length: 65
+            lifetime: 40
+            colorTo: 8aa3f4
+            strokeFrom: 3
+            strokeTo: 0
+            lenFrom: 1
+            lenTo: 10
+            }
+            ]
+            }
+            }
+            }
+            ]
+abilities: [
+{
+type: "mindustry.entities.abilities.ForceFieldAbility"
+max: 99000
+cooldown: 20
+radius: 300
+regen: 800
+}
+{
+type: "mindustry.entities.abilities.RepairFieldAbility"
+    range: 160
+    amount: 1000000
+    reload: 30
+  }
+   {
+    type: UnitSpawnAbility
+    unit: chrome-wraith
+    spawnX: 0
+    spawnY: 0
+    spawnTime: 1000
+    }
+]
