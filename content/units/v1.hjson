@@ -17,8 +17,8 @@ name:puncher
 x: 5,5
 y: 0
 name: punchers
-    x: 5,5
-    y: 0
+x: 5,5
+y: 0
     mirror: true
     shootSound: corexplode
     reload: 40
@@ -29,10 +29,8 @@ name: punchers
       length: 1
       knockback: 100
       shootEffect: impactShockwave
-      smokeEffect: steam
       pierce: true
       pierceBuilding: true
-}
-}
-]
-immunities: [burning]
+      }
+      }
+      ]
