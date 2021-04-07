@@ -16,15 +16,14 @@ weapons: [
 name: punchers
 x: 5,5
 y: 2
-    reload: 10
-    shootSound:corexplode
-    bullet: {
-      type: SapBulletType
-      damage: 20
-      sapStrength: 30
-      knockback: 100
-      shootEffect: impactShockwave
-      hitEffect: fireballsmoke
-      }
-      }
-      ]
+reload: 10
+shootSound:corexplode
+bullet: {
+type: SapBulletType
+damage: 20
+sapStrength: 30
+shootEffect: impactShockwave
+hitEffect: fireballsmoke
+}
+}
+]
