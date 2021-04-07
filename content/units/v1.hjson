@@ -10,7 +10,7 @@ rotateSpeed: 3
 trailX: 2
 trailY: 3
 trailScl: 2
-trailLength: 1-
+trailLength: 100
 weapons: [
 {
 name: punchers
