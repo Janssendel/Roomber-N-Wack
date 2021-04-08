@@ -4,7 +4,7 @@ description: MANKIND IS DEAD . BLOOD IS FUEL . HELL IS FULL
 speed: 2
 accel: 0.5
 range: 10
-hitSize: 32
+hitSize: 10
 health: 325
 rotateSpeed: 3
 trailX: 2
@@ -24,6 +24,7 @@ damage: 20
 sapStrength: 30
 shootEffect: impactShockwave
 hitEffect: fireballsmoke
+alternate: false
 }
 }
 ]
