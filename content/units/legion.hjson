@@ -198,7 +198,7 @@ type: "mindustry.entities.abilities.RepairFieldAbility"
   }
    {
     type: UnitSpawnAbility
-    unit: chrome-wraith
+    unit: legion
     spawnX: 0
     spawnY: 0
     spawnTime: 1000
