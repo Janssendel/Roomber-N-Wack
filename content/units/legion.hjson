@@ -101,11 +101,12 @@ weapons: [
   x: 0
   y: 0
   rotate: false
-  reload: 1
+  reload: 40
   bullet: {
   type: BombBulletType
-  damage: 400000
+  damage: 40
   lifetime: 0
+  effect: unmoving
   splashDamage: 400000
   splashDamageRadius: 500
   hitEffect: lightningCharge
@@ -150,7 +151,7 @@ weapons: [
     }
   }
 {
-name: Wetifier
+name: ash
 x: 0
 y: 0
 rotate: false
@@ -160,7 +161,7 @@ type: BombBulletType
 damage: 0
 splashDamage: 0
 splashDamageRadius: 500
-effect: wet
+effect: burning
 despawnEffect:{
 type: MultiEffect
 lifetime: 60
@@ -198,9 +199,19 @@ type: "mindustry.entities.abilities.RepairFieldAbility"
   }
    {
     type: UnitSpawnAbility
-    unit: legion
+    unit: mace
     spawnX: 0
     spawnY: 0
     spawnTime: 1000
     }
-]
+
+   {
+   type: StatusFieldAbilty
+    duration: 1000
+    range: 400
+    effect: {
+      name:uhoh
+      localizedName: aeugh
+      damageMultiplier: 10
+      speedMultiplier: 30
+      
