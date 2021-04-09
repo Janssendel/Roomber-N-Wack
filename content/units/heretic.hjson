@@ -1,0 +1,91 @@
+type: naval
+localizedName: 
+description: A truly one of a kind ship , the Heretic is a weapon for massive amounts of battlefiled control . Be it slowing a fast moving target to get a hit on them or making a hard enemy stop chasing you , the Heretic always has a nasty suprise for everyone .
+details: "WIP skeledoodoo"
+speed: 2
+accel: 1
+flying: true
+range: 200
+circleTarget: true
+rotateShooting: false
+hitSize: 288
+health: 765500450
+armor: 344530
+lowAltitude: true
+rotateSpeed: 0.5
+engineOffset: 140
+engineSize: 24
+trailX: 5
+trailY: -20
+trailScl: 2
+trailLength: 100
+weapons: [
+  {
+    name: tachyon-rays
+    x: 2
+    y: 2
+    rotate: true
+    reload:  7
+    firstShotDelay: 30
+    bullet: {
+    damage: 90000
+    speed: 10
+    lifetime: 100
+    pierce:true 
+    pierceBuilding: true
+    height: 20
+    width: 12
+    homingPower: 10.0
+    homingRange: 100
+    hitEffect:railHit
+    }
+    }
+   {
+   name: tachyon-rays
+    x: 2
+    y: 4
+    rotate: true
+    mirror: true
+    reload: 2
+    firstShotDelay: 30
+    bullet: {
+    type: MissileBulletType
+    damage: 300000
+    speed: 10
+    lifetime:200
+    splashDamage: 30000
+    splashDamageRadius: 40
+    hitEffect: nuclearcloud
+    trailColor: ff0000
+    }
+    }
+ {
+   name: net-torpedo
+    x: 0
+    y: 7
+    rotate: true
+    mirror: true
+    reload: 2
+    shootSound: plasmadrop
+    bullet: {
+    type: MissileBulletType
+    damage: 300000
+    speed: 0.55
+    lifetime:200
+    splashDamage: 0
+    splashDamageRadius: 40
+    hitEffect: nuclearcloud
+    trailColor: ff0000
+	status: unmoving	
+    }
+    }
+	]
+abilities: [
+{
+type: "mindustry.entities.abilities.ForceFieldAbility"
+max: 99000
+cooldown: 20
+radius: 300
+regen: 800
+}
+]
