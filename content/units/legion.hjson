@@ -206,7 +206,7 @@ type: "mindustry.entities.abilities.RepairFieldAbility"
     }
 
    {
-   type: StatusFieldAbilty
+   type: StatusFieldAbility
     duration: 1000
     range: 400
     effect: {
