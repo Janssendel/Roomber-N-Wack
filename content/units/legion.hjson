@@ -214,4 +214,7 @@ type: "mindustry.entities.abilities.RepairFieldAbility"
       localizedName: aeugh
       damageMultiplier: 10
       speedMultiplier: 30
+      }
+      }
+      ]
       
