@@ -87,6 +87,7 @@ weapons: [
     shootSound: plasmadrop
     bullet: {
     type: MissileBulletType
+    sprite: net
     damage: 300000
     speed: 0.55
     lifetime:200
