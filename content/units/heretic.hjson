@@ -8,13 +8,13 @@ flying: true
 range: 200
 circleTarget: true
 rotateShooting: false
-hitSize: 288
-health: 765500450
-armor: 344530
+hitSize: 100
+health: 80000
+armor: 80000
 lowAltitude: true
-rotateSpeed: 0.5
-engineOffset: 140
-engineSize: 24
+rotateSpeed: 0.9
+engineOffset: 50
+engineSize: 19
 trailX: 5
 trailY: -20
 trailScl: 2
@@ -107,3 +107,5 @@ radius: 300
 regen: 800
 }
 ]
+//hey blue mind if you dont see this actually thanks alot
+//roomber had posted it with a little help from Homebrewn, thanks canadian duck for letting me collab with the homebrew poriject
